@@ -1,0 +1,13 @@
+.postsBlock {
+    padding: 20px;
+}
+
+.postsBlock textarea {
+    width: 50%;
+    height: 100px;
+}
+
+.postsBlock .newPostButton{
+    margin-bottom: 40px;
+}
+

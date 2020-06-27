@@ -1,0 +1,53 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems{
+    padding: 10px;
+
+}
+
+.dialog{
+    color: white;
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-gap: 5px;
+    margin: 10px;
+
+}
+
+.myMessage {
+    font-weight: 500;
+    text-align: right;
+}
+
+.messages{
+    padding: 10px;
+}
+
+.messages .message{
+    margin: 0 10px 20px;
+}
+
+.dialog img, .message img {
+    border-radius: 50%;
+    width: 20px;
+}
+
+.dialogs textarea {
+      width: 50%;
+      height: 50px;
+      margin: 20px 0 0 0;
+  }
+
+.dialogs button {
+
+}
+
+.messageContainer {
+    text-align: left;
+}
+
+.foo::-webkit-input-placeholder {color:red; opacity:1;}

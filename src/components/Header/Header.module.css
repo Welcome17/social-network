@@ -1,0 +1,17 @@
+.header {
+    grid-area: h; /*это просто имена*/
+    background-color: green;
+}
+
+.header img {
+    width: 20px;
+}
+
+.loginBlock {
+    float: right;
+    margin: 10px;
+}
+
+.loginBlock a {
+    color: white;
+}

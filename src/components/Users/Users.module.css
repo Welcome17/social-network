@@ -1,0 +1,55 @@
+.userBlock {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    margin: 10px 20px;
+}
+
+.dialogsItems{
+    padding: 10px;
+
+}
+
+.dialog{
+    color: white;
+    /*display: flex;*/
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    grid-gap: 5px;
+    margin: 10px;
+
+}
+
+.profileImage {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.dialogs textarea {
+      width: 50%;
+      height: 50px;
+      margin: 20px 0 0 0;
+  }
+
+.dialogs button {
+
+}
+
+.messageContainer {
+    text-align: left;
+}
+
+.foo::-webkit-input-placeholder {color:red; opacity:1;}
+
+
+
+.pageNumbers {
+    text-align: center;
+}
+
+.pageNumbers span {
+    margin: 3px;
+}
+
+.preloader {
+    text-align: center;
+}

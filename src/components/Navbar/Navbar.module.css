@@ -1,0 +1,47 @@
+.nav{
+    grid-area: n;
+    background-color: gray;
+}
+
+.item {
+    padding: 10px;
+}
+
+.item a {
+    color: white;
+}
+
+.item a:hover {
+    color: red;
+}
+
+item a.activeLink {
+    color: gold;
+}
+
+.friendsContainer {
+    text-align: center;
+}
+
+.friendsElement {
+    display: inline-block;
+    justify-content: center;
+    margin: 5px;
+    font-size: 12px;
+    color: white;
+
+}
+
+.friendsImage {
+    border-radius: 50%;
+    width: 30px;
+}
+
+.friendsName {
+
+}
+
+nav h3 {
+    margin: 40px 0 10px 10px ;
+    color: white;
+}

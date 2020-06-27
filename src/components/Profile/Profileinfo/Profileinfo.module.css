@@ -1,0 +1,29 @@
+
+.ProfileHeader img {
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+
+.infoBlock {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 5px;
+}
+
+.profilePhoto {
+    border-radius: 50%;
+    width: 100px;
+
+}
+
+.descriptionBlock {
+
+}
+
+
+.socialIconsBlock img{
+    width: 30px;
+    margin: 5px;
+}
